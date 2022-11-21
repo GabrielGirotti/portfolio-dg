@@ -44,6 +44,8 @@ const ContVideos = styled.div`
   flex-wrap: wrap;
 `;
 
+
+
 const Videos = () => {
   return (
     <Contenedor id="videos">
@@ -54,36 +56,36 @@ const Videos = () => {
           height="315"
           src="https://www.youtube.com/embed/g98_nNrRzIQ"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/TbNvwnX4tKs"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/H0e-2WJOf9E"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
         <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/9F8UMKqdAq8"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </ContVideos>
     </Contenedor>

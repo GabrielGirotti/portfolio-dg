@@ -58,13 +58,13 @@ const NavBar = () => {
           </Link>
         </NavLi>
         <NavLi>
-          <Link smooth to="#websites">
-            Websites
+          <Link smooth to="#medias">
+            Medias
           </Link>
         </NavLi>
         <NavLi>
-          <Link smooth to="#medias">
-            Medias
+          <Link smooth to="#websites">
+            Web
           </Link>
         </NavLi>
       </NavUl>

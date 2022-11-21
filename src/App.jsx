@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import NavBar from "./components/Header/NavBar/NavBar";
 import Logos from "./components/Logos/Logos";
+import Medias from "./components/Medias/Medias";
 import Proyectos from "./components/Proyectos/Proyectos";
 import Videos from "./components/Videos/Videos";
 
@@ -18,7 +19,10 @@ function App() {
       <Header />
       <Bio />
       <Logos />
-      <Videos/>
+      <Videos />
+
+      <Medias />
+
       <Proyectos />
       <Footer />
     </>
