@@ -1,9 +1,18 @@
+import Maqueta from "../../assets/proyectos/maqueta-prueba.jpg";
 import Rick from "../../assets/proyectos/Fotorick.png";
 import qbs from "../../assets/proyectos/Fotoqbs.png";
 import ecommerce from "../../assets/proyectos/Fotoecommerce.png";
 import aires from "../../assets/proyectos/Fotoaires.png";
 
 export const DiccionarioProyecto = [
+  {
+    nombre: "Prueba Técnica",
+    descripcion:
+      "Prueba técnica para puesto de Maquetador Web, utilizando Html, Css, Sass y Javascript. Arquitectura ITCSS y automatización de tareas con Gulp.",
+    imagen: Maqueta,
+    deploy: "https://maqueta-ecommerce-shopsport.netlify.app/",
+    id: "p-005",
+  },
   {
     nombre: "QBS",
     descripcion:
