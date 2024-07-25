@@ -3,8 +3,18 @@ import Rick from "../../assets/proyectos/Fotorick.png";
 import qbs from "../../assets/proyectos/Fotoqbs.png";
 import ecommerce from "../../assets/proyectos/Fotoecommerce.png";
 import aires from "../../assets/proyectos/Fotoaires.png";
+import fit from "../../assets/proyectos/fit.jpg";
 
 export const DiccionarioProyecto = [
+  {
+    nombre: "FitFusion",
+    descripcion:
+      "Plataforma de entrenamiento realizada con React, Vite, Typescript y TailwindCss. Proyecto realizado en un entorno de trabajo simulado propuesto por Igrowker.",
+    imagen: fit,
+    deploy: "https://fitfusionigrowker.netlify.app/",
+    codigo: "https://github.com/igrowker/i002-fitfusion-front/",
+    id: "p-007",
+  },
   {
     nombre: "Prueba Técnica",
     descripcion:
