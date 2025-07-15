@@ -9,6 +9,7 @@ import after from "../../assets/icons/after.svg";
 import github from "../../assets/icons/github.svg";
 import ts from "../../assets/icons/ts.svg";
 import tailwind from "../../assets/icons/tailwind.svg";
+import figma from "../../assets/icons/figma.svg";
 
 export const iconos = [
   {
@@ -34,7 +35,11 @@ export const iconos = [
     img: after,
     id: "i-010",
   },
-
+  {
+    nombre: "figma",
+    img: figma,
+    id: "i-107",
+  },
   {
     nombre: "html",
     img: html,

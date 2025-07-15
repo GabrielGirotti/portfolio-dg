@@ -69,7 +69,7 @@ const Footer = () => {
           <Imagen src={cv} alt="Curriculum Vitae" />
         </RedesLink>
       </ContImagen>
-      <Texto>Gabriel Girotti - 2022</Texto>
+      <Texto>Gabriel Girotti - 2025</Texto>
     </FooterG>
   );
 };
