@@ -23,7 +23,7 @@ const Header = () => {
     <>
       <Contenedor id="inicio">
         <Titulo>Gabriel Girotti</Titulo>
-        <Subtitulo>Diseñador Gráfico | Editor de Videos</Subtitulo>
+        <Subtitulo>Diseñador Gráfico | Editor de Videos | Maquetador Web</Subtitulo>
       </Contenedor>
     </>
   );

@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
-
+import Github from "../../assets/icons/github.svg";
 import yt from "../../assets/icons/youtubeicono.svg";
 import lin from "../../assets/icons/linkedinicono.svg";
 import cv from "../../assets/icons/cvicono.svg";
-import pdf from '../../assets/cv/GabrielGirottiDG.pdf'
+import pdf from "../../assets/cv/GabrielGirottiDG.pdf";
 
 const FooterG = styled.footer`
   display: flex;
@@ -52,17 +52,20 @@ const Footer = () => {
           <Imagen src={yt} alt="Youtube" />
         </RedesLink>
         <RedesLink
+          href="https://github.com/GabrielGirotti"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Imagen src={Github} alt="Github" />
+        </RedesLink>
+        <RedesLink
           href="https://www.linkedin.com/in/gabriel-girotti/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Imagen src={lin} alt="Linkedin" />
         </RedesLink>
-        <RedesLink
-          href={pdf}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <RedesLink href={pdf} target="_blank" rel="noopener noreferrer">
           <Imagen src={cv} alt="Curriculum Vitae" />
         </RedesLink>
       </ContImagen>

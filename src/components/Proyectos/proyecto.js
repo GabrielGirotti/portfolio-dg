@@ -1,9 +1,8 @@
 import Maqueta from "../../assets/proyectos/maqueta-prueba.jpg";
 import Rick from "../../assets/proyectos/Fotorick.png";
 import qbs from "../../assets/proyectos/Fotoqbs.png";
-import ecommerce from "../../assets/proyectos/Fotoecommerce.png";
-import aires from "../../assets/proyectos/Fotoaires.png";
 import fit from "../../assets/proyectos/fit.jpg";
+import oleada from "../../assets/proyectos/oleada.jpg";
 
 export const DiccionarioProyecto = [
   {
@@ -40,18 +39,10 @@ export const DiccionarioProyecto = [
     id: "p-002",
   },
   {
-    nombre: "Aires Serranos",
-    descripcion: "Website para complejo de cabañas de Cordoba (Argentina).",
-    imagen: aires,
-    deploy: "https://airesserranos.netlify.app/index.html",
-    id: "p-003",
-  },
-  {
-    nombre: "Ecommerce",
-    descripcion:
-      "Primer simulacro de Ecommerce, con login y consumo de API pública.",
-    imagen: ecommerce,
-    deploy: "https://ecomercespa.netlify.app/",
-    id: "p-004",
+    nombre: "Oleada Psycho",
+    descripcion: "Website promocional para festival de música.",
+    imagen: oleada,
+    deploy: "https://oleadapsycho.netlify.app/",
+    id: "p-102",
   },
 ];

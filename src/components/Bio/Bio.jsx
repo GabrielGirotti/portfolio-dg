@@ -8,7 +8,6 @@ const Biografia = styled.p`
   margin: auto;
   padding: 20px;
   color: #b7b7b7;
-
 `;
 
 const CvButton = styled.a`
@@ -48,13 +47,15 @@ const Bio = () => {
   return (
     <Contenedor>
       <Biografia>
-        Soy Diseñador Gráfico, egresado de la Escuela de Artes Visuales Martin A.
-        Malharro (Argentina), con más de 10 años de experiencia, trabajando para
-        clientes de distintas partes del mundo, desarrollando páginas web,
-        diseño de identidad, edición de video y social medias, entre otras
-        piezas.
+        Soy egresado de la FPS en DAW (Desarrollo de Aplicaciones Web) en el
+        ISPC (Argentina) y de la FPS en Diseño Gráfico, en la Escuela Superior
+        de Artes Visuales Martin A. Malharro (Argentina). Con más de 13 años de
+        experiencia, trabajando por cuenta ajena y de manera freelance para
+        clientes de distintas partes del mundo, he desarrollado videos,
+        identidad corporativa, social medias y páginas web, entre otras piezas.
       </Biografia>
-<Tecnologias/>
+
+      <Tecnologias />
       <CvButton href={pdf} target="_blank" rel="noopener noreferrer">
         Descargar Cv
       </CvButton>
