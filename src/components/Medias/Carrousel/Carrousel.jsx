@@ -8,7 +8,7 @@ const ContCarrou = styled.div`
   align-items: center;
   gap: 20px;
   padding: 20px 0;
-  background-color: white;
+  background-color: transparent;
   width: 100vw;
 `;
 
