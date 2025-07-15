@@ -60,8 +60,8 @@ const Figma = () => {
         ></iframe>
 
         <iframe
-          width="900"
-          height="400"
+          width="560"
+          height="315"
           src="https://embed.figma.com/design/ISkJ0jtRnPoV9N9WYIiUYX/Ecommerce-Mobile-App?node-id=1-3&embed-host=share"
           title="Figma Project FastShoes"
           frameBorder="0"
