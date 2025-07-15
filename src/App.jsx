@@ -8,6 +8,7 @@ import Logos from "./components/Logos/Logos";
 import Medias from "./components/Medias/Medias";
 import Proyectos from "./components/Proyectos/Proyectos";
 import Videos from "./components/Videos/Videos";
+import Figma from "./components/Figma/Figma";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Medias />
 
       <Proyectos />
+      <Figma />
       <Footer />
     </>
   );

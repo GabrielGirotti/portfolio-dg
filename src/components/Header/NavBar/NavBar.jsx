@@ -67,6 +67,11 @@ const NavBar = () => {
             Web
           </Link>
         </NavLi>
+             <NavLi>
+          <Link smooth to="#Figma">
+            UI
+          </Link>
+        </NavLi>
       </NavUl>
     </Nav>
   );
