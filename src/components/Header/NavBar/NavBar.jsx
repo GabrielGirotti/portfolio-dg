@@ -57,19 +57,20 @@ const NavBar = () => {
             Videos
           </Link>
         </NavLi>
-        <NavLi>
-          <Link smooth to="#medias">
-            Medias
-          </Link>
-        </NavLi>
+
         <NavLi>
           <Link smooth to="#websites">
             Web
           </Link>
         </NavLi>
-             <NavLi>
-          <Link smooth to="#Figma">
+        <NavLi>
+          <Link smooth to="#ui">
             UI
+          </Link>
+        </NavLi>
+        <NavLi>
+          <Link smooth to="#medias">
+            Medias
           </Link>
         </NavLi>
       </NavUl>

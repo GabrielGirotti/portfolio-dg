@@ -8,7 +8,7 @@ import Logos from "./components/Logos/Logos";
 import Medias from "./components/Medias/Medias";
 import Proyectos from "./components/Proyectos/Proyectos";
 import Videos from "./components/Videos/Videos";
-import Figma from "./components/Figma/Figma";
+import { Interfaces } from "./components/Interfaces";
 
 function App() {
   return (
@@ -18,14 +18,14 @@ function App() {
       </Router>
 
       <Header />
+      
       <Bio />
       <Logos />
       <Videos />
-
+      <Proyectos />
+      <Interfaces />
       <Medias />
 
-      <Proyectos />
-      <Figma />
       <Footer />
     </>
   );
